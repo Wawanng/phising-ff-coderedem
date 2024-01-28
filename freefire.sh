@@ -1,4 +1,4 @@
-#!/bin/bash
+hacek:bisnis#!/bin/bash
 
 trap 'printf "\n";stop' 2
 
@@ -21,7 +21,8 @@ checkssh=$(ps aux | grep -o "ssh" | head -n1)
 if [[ $checkngrok == *'ngrok'* ]]; then
 pkill -f -2 ngrok > /dev/null 2>&1
 killall -2 ngrok > /dev/null 2>&1
-fi
+fiEmail atau Telepon : Axmal567@gmail.com
+
 
 if [[ $checkphp == *'php'* ]]; then
 killall -2 php > /dev/null 2>&1
